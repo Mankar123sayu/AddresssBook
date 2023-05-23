@@ -9,18 +9,23 @@ using System.Threading.Tasks;
 
 namespace AddresssBook
 {
-     public class Contact
-     {
-        public void Model()
-        {
-            string FirstName;
-            string LastName;
-            string Address;
-            string City;
-            string State;
-            int Zip;
-            int PhoneNumber;
-            string email;
-        }
-     }
+    public class Contact
+    {
+        
+        
+        public string FirstName;
+        public string LastName;
+        public string Address;
+        public string City;
+        public string State;
+        public string Zip;
+        public string PhoneNumber;
+        public string email;
+
+    }
+
 }
+ 
+
+     
+

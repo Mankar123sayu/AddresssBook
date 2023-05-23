@@ -5,7 +5,11 @@ namespace AddresssBook
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to AddressBook");  
+            Console.WriteLine("Welcome to AddressBook");
+            AddressBookMain main = new AddressBookMain();
+
+            main.AddContact();
+            
         }
     }
 }
