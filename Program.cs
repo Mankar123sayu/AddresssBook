@@ -8,7 +8,9 @@ namespace AddresssBook
             Console.WriteLine("Welcome to AddressBook");
             AddressBookMain main = new AddressBookMain();
 
-            main.AddContact();
+            //main.AddContact();
+            main.Display();
+            main.EditContact();
             
         }
     }
