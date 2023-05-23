@@ -11,8 +11,6 @@ namespace AddresssBook
 {
      public class Contact
      {
-        public void Model()
-        {
             public string FirstName;
             public string LastName;
             public string Address;
@@ -21,6 +19,5 @@ namespace AddresssBook
             public string Zip;
             public string PhoneNumber;
             public string email;
-        }
      }
 }
