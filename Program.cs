@@ -9,8 +9,9 @@ namespace AddresssBook
             AddressBookMain main = new AddressBookMain();
 
             //main.AddContact();
-            main.Display();
-            main.EditContact();
+           // main.Display();
+           // main.EditContact();
+            main.DeleteContact();
             
         }
     }
